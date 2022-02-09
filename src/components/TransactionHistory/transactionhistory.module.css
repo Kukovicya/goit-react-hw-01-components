@@ -1,0 +1,24 @@
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  text-align: center;
+  border: 4px solid deepskyblue;
+  /* border-collapse: collapse; */
+  /* border-spacing: 5px; */
+  background: #fffffa;
+  /* border-radius: 20px; */
+  margin: 0 auto;
+}
+th {
+  font-size: 22px;
+  font-weight: 300;
+  padding: 12px 10px;
+
+  border: 4px solid deepskyblue;
+  color: #09152b;
+}
+
+td {
+  /* padding: 10px; */
+  color: #380547;
+  border: 4px solid deepskyblue;
+}
