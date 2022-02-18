@@ -23,10 +23,27 @@ const StatisticsCard = ({ stats, title }) => {
     )
 }
 StatisticsCard.defaultProps = {
-    stats: [],
-    title:PropTypes.string.isRequired,
+    stats: []
 }
+
+ StatisticsCard.propTypes = {
+    title: PropTypes.string,
+    stats: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        label: PropTypes.string.isRequired,
+        percentage: PropTypes.number.isRequired,
+    })),
+  };
+
 export default StatisticsCard;
+
+
+
+
+
+
+
+
 
 
 function getColor() {
